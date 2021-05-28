@@ -30,11 +30,15 @@ a{
 
 .header__nav__ul--lista{
     display: flex;
-    margin: 20px 0;
+    margin: 20px 50px;
+}
+
+.header__nav__ul--lista li{
+    margin: 0 30px;
 }
 
 .header__nav__ul--li{
-    margin: 0 50px;
+    margin: 0 10px;
 }
 
 .header__nav__ul--li a{
@@ -43,9 +47,12 @@ a{
     
 }
 
-.header__nav__ul--li a:hover{
+.header__nav__ul--li a:hover {
+    
     text-decoration:underline 5px green;
 }
+
+
 
 .header__nav__ul--imagen img{
     width: 200px;
