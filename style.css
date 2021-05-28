@@ -20,7 +20,7 @@ a{
 
 .header__nav{
     background-color: aqua;
-    width: 90%;
+    width: 100%;
     height: 70px;
     margin: auto;
     display: flex;
@@ -35,29 +35,18 @@ a{
 
 .header__nav__ul--lista li{
     margin: 0 30px;
+    height: 100%;
 }
 
-.header__nav__ul--li{
-    margin: 0 10px;
-}
-
-.header__nav__ul--li a{
-    display: block;
-
-    
-}
-
-.header__nav__ul--li a:hover {
-    
+.header__nav__ul--li a:hover{    
     text-decoration:underline 5px green;
 }
 
 
 
 .header__nav__ul--imagen img{
+    margin-left: 10px;
     width: 200px;
     height: 60px;
     
 }
- 
-            
