@@ -4,9 +4,17 @@
     box-sizing: border-box;
 }
 
+html{
+    font-size: 62.5%;
+}
+
 body{
-    background-color: #00d1e0;
-    background-image: linear-gradient(180deg, #8ef29e 0%,  #00d1e0 100%);
+    background-color: #53abee;
+    background-image: linear-gradient(180deg, #53abee 0%, #6cac6c 57%, #1b6f20 99%);
+    
+
+    
+
 
 
 
@@ -41,18 +49,23 @@ a{
 .header__nav__ul--lista li{
     margin: 0 30px;
     height: 100%;
+    font-size: 2rem;
+    font-weight: bold;
+    
 }
 
 .header__nav__ul--li a:hover{    
-    text-decoration:underline 5px #08AEEA;
+    text-decoration:underline 5px #1b6f20;
 }
+
 
 
 
 .header__nav__ul--imagen img{
     margin:10px 0px 0px 20px;
-    width: 200px;
-    height: 60px;
+    width: 210px;
+    height: 80px;
     
 }
+
 
