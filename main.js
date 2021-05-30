@@ -1,13 +1,7 @@
-const boton = document.querySelector('#boton');
-const input = document.querySelector('#numero');
-const parrafo = document.querySelector('#nombre');
+
 const url = 'https://rickandmortyapi.com/api/character'
 
 
-boton.addEventListener('click', () =>{
-    const num = input.value;
-    fetchData(url, num);
-});
 
 const fetchData  =  async (API, ID) => {
     const conectar = await window.fetch(API);
@@ -16,11 +10,10 @@ const fetchData  =  async (API, ID) => {
 
 
    try{
-        var bandera = false;
-        var nombre;
+        
         respuesta.results.forEach(element => {
             
-            console.log('Conectado!');
+            console.log(element.image);
             
         });
         
@@ -30,6 +23,6 @@ const fetchData  =  async (API, ID) => {
     }
 }
 
-
+fetchData(url);
 
 
