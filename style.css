@@ -11,8 +11,9 @@ html{
 }
 
 body{
-    background-color: #53abee;
+    
     background-image: linear-gradient(180deg, #53abee 0%, #6cac6c 57%, #1b6f20 80%, #0c350f 100%);
+    
     background-repeat: no-repeat;
     background-attachment: fixed;
 
@@ -36,15 +37,16 @@ a{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 .header__nav__ul--lista{
     display: flex;
-    margin: 20px 50px;
+    margin: 20px 30px;
 }
 
 .header__nav__ul--lista li{
-    margin: 0 30px;
+    margin: 0 20px;
     height: 100%;
     font-size: 2.3rem;
     font-weight: bold;
@@ -193,6 +195,7 @@ main hr{
 /*--------------- SUBIR ---------------- */
 
 .subir{
+    padding: 30px 0;
     width: 100%;
     font-size: 2rem;
     display: flex;
@@ -253,8 +256,34 @@ main hr{
    color:white
 }
 
+/* --------------MEDIA---------- */
+
+@media (max-width: 600px) { 
+
+    .header__nav{
+        flex-direction: column;
+        align-items: center;
+    }
+    .footerContainer{
+        font-size: 2rem;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footerContainer .Redes{
+        padding-bottom: 20px;
+    }
+    
+    .header__nav__ul--imagen img{
+        
+        width: 210px;
+        height: 80px;
+        
+    }
 
 
+
+
+ }
 
 
 
