@@ -19,14 +19,14 @@
 <body>
     
 
-    <header class="header">
+    <header class="header" id="arriba">
         <nav class="header__nav">
             <ul class="header__nav__ul--imagen">
                 <li class="header__nav__ul--li"><img src="https://help.redbubble.com/hc/article_attachments/360002309526/Rick_and_Morty_-_logo__English_.png" alt=""></li>
             </ul>
             <ul class="header__nav__ul--lista">
                 <li class="header__nav__ul--li"><a href="#personajes">Personajes</a></li>
-                <li class="header__nav__ul--li"><a href="">Conoceme</a></li>               
+                <li class="header__nav__ul--li"><a href="#conoceme">Conoceme</a></li>               
             </ul>
         </nav>
     </header>
@@ -44,20 +44,35 @@
 
         
 
-        <div class="personajes-Container" id="personajes">
-            
-            
+        <div class="personajes-Container" id="personajes"></div>
 
 
+
+
+        <div class="subir">
+            <a class="fas fa-arrow-up" href="#arriba"></a>
+            <h4>Volver al inicio</h4>
         </div>
-
-
-
-
-
     </main>
 
-    <footer>
+    <footer id="conoceme" class="footerContainer">
+
+
+
+       <div class="Redes">
+           <h4 class="Redes--texto">Encuentrame  en</h4>
+           <div class="Redes__ContainerIcons">
+                <a class="fab fa-facebook-square" target="_blank" href="https://www.facebook.com/JoelSanchezHe/"></a>
+                <a class="fab fa-twitter-square"  target="_blank" href="https://twitter.com/JoelSanH01"></a>
+                <a class="fab fa-linkedin" target="_blank" href="https://www.linkedin.com/in/joel-eduardo-sanchez-herrera-2535491bb/"></a>
+           </div>
+       </div>
+
+       <div class="Repositorio">
+            <h4>Repositorio</h4>
+            <a class="fab fa-github" href=""></a>
+
+       </div>
         
     </footer>
 

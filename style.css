@@ -6,11 +6,13 @@
 
 html{
     font-size: 62.5%;
+    scroll-behavior: smooth;
+
 }
 
 body{
     background-color: #53abee;
-    background-image: linear-gradient(180deg, #53abee 0%, #6cac6c 57%, #1b6f20 100%);
+    background-image: linear-gradient(180deg, #53abee 0%, #6cac6c 57%, #1b6f20 80%, #0c350f 100%);
     background-repeat: no-repeat;
     background-attachment: fixed;
 
@@ -44,12 +46,18 @@ a{
 .header__nav__ul--lista li{
     margin: 0 30px;
     height: 100%;
-    font-size: 2rem;
+    font-size: 2.3rem;
     font-weight: bold;
     
 }
 
+.header__nav__ul--li:hover{
+    text-decoration: red underline 2px;
+}
 
+/* .header__nav__ul--li:active{
+    border-bottom: 3px solid #858585;
+} */
 
 
 .header__nav__ul--imagen img{
@@ -182,10 +190,68 @@ main hr{
     margin: 0;
 }
 
+/*--------------- SUBIR ---------------- */
+
+.subir{
+    width: 100%;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.subir a{
+    font-size: 4rem;
+}
 
 
+/*  ------------FOOTER   ------------*/
 
+.footerContainer {
+    
+    padding: 30px 20px;
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
+.Redes__ContainerIcons{
+    
+    display: flex;
+    justify-content: center;
+}
+
+.Redes__ContainerIcons a{
+    
+    font-size: 5rem;
+    padding: 0 10px;
+}
+
+.Redes__ContainerIcons a:nth-child(1):hover{
+    color:#1877f2;
+}
+
+.Redes__ContainerIcons a:nth-child(2):hover{
+    color:#00ACEE;
+}
+
+.Redes__ContainerIcons a:nth-child(3):hover{
+    color:#0e76a8;
+}
+
+.Repositorio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Repositorio a{
+    font-size: 5rem;
+}
+
+.Repositorio a:hover{
+   color:white
+}
 
 
 
